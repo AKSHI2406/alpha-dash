@@ -1,0 +1,81 @@
+.delivery-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.delivery-list,
+.delivery-image {
+  width: 48%; 
+  padding: 10px;
+}
+
+.delivery-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.delivery-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.delivery-item.selected {
+  border-color: blue;
+  background-color: #f0f8ff;
+}
+
+.delivery-image-preview {
+  width: 600px; 
+  height: auto;
+  border-radius: 4px;
+  max-width: 100%; 
+  max-height: 300px;
+}
+
+h2 {
+  margin-top: 0;
+}
+.subfields {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px; 
+}
+
+.subfield {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.details-section {
+  margin-top: 20px;
+}
+.details-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  color: rgb(154, 149, 149);
+  font-size: 14px;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
