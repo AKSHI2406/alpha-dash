@@ -1,4 +1,3 @@
-// material-ui
 import Button from '@mui/material/Button';
 import CardMedia from '@mui/material/CardMedia';
 import Link from '@mui/material/Link';
@@ -10,7 +9,6 @@ import MainCard from 'components/MainCard';
 import avatar from 'assets/images/users/avatar-group.png';
 import AnimateButton from 'components/@extended/AnimateButton';
 
-// ==============================|| DRAWER CONTENT - NAVIGATION CARD ||============================== //
 
 export default function NavCard() {
   return (
